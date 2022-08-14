@@ -16,19 +16,19 @@ class GENEvents:
     def gen_events(self):
         i = 0
         prob = 0
-        m_costh = np.zeros(Nevent)
-        ph_px = np.zeros(Nevent)
-        ph_py = np.zeros(Nevent)
-        ph_pz = np.zeros(Nevent)
-        ph_e = np.zeros(Nevent)
-        el_px = np.zeros(Nevent)
-        el_py = np.zeros(Nevent)
-        el_pz = np.zeros(Nevent)
-        el_e = np.zeros(Nevent)
-        while i < Nevent:
+        m_costh = np.zeros(self.Nevent)
+        ph_px = np.zeros(self.Nevent)
+        ph_py = np.zeros(self.Nevent)
+        ph_pz = np.zeros(self.Nevent)
+        ph_e = np.zeros(self.Nevent)
+        el_px = np.zeros(self.Nevent)
+        el_py = np.zeros(self.Nevent)
+        el_pz = np.zeros(self.Nevent)
+        el_e = np.zeros(self.Nevent)
+        while i < self.Nevent:
             costh = -1 + random.random() * self.delta
             phi = 2 * math.pi * random.random() * self.delta
-            w_ii = CrossSection(self.E/self.m).dsigma(costh) * self.delta
+            w_ii = CrossSection(self.E / self.m).dsigma(costh) * self.delta
             prob = w_ii / self.w_max
             random_point = random.random()
             if random_point < prob:

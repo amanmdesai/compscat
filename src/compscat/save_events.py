@@ -9,7 +9,9 @@ class SaveEvent(Nevent, w_max):
         self.E = E
 
     def to_root(self):
-        ph_e, ph_px, ph_py, ph_pz, el_e, el_px, el_py, el_pz = GENEvents(self.Nevent, self.w_max, self.E).gen_events()
+        ph_e, ph_px, ph_py, ph_pz, el_e, el_px, el_py, el_pz = GENEvents(
+            self.Nevent, self.w_max, self.E
+        ).gen_events()
         file = uproot.recreate("MC_compton.root")
         file["events"] = {
             "Photon Energy (keV)": ph_e * 1e6,

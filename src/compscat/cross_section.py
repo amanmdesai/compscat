@@ -20,7 +20,7 @@ class CrossSection:
         sum_1 += costh**2
         return pre_fact * sum_1
 
-    def xsection(self,w_max):
+    def xsection(self, w_max):
         costh = -1 + random.random() * self.delta
         w_i = CrossSection(w_max).dsigma(costh) * self.delta
         if w_max < w_i:
