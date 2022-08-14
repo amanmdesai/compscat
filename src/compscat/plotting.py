@@ -4,17 +4,18 @@ import uproot
 
 class PlotData:
     def plot(data, key):
-        plt.hist(data,bins=100,color=None)
-        label = key.replace('_',' ')
-        plt.xlabel(label+' [keV]')
-        plt.ylabel('Counts')
+        plt.hist(data, bins=100, color=None)
+        label = key.replace("_", " ")
+        plt.xlabel(label + " [keV]")
+        plt.ylabel("Counts")
         plt.show()
-        plt.savefig(key+'.png')
+        plt.savefig(key + ".png")
+
     def file(self, filename):
-        if 'root' not in filename:
-            raise Exception('Input must be a ROOT file')
+        if "root" not in filename:
+            raise Exception("Input must be a ROOT file")
         file = uproot.open(filename)
-        tree = file['events']
+        tree = file["events"]
         branches = tree.arrays()
         for key in tree.keys():
             plot(branches[key], key)
