@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        version: [flake8 --all-files,black --all-files, codespell --all-files, check-added-large-files --all-files]
+        version: [flake8 --all-files,black --all-files, check-added-large-files --all-files]
     steps:
     - uses: actions/checkout@v3
     - uses: actions/setup-python@v3
