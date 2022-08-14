@@ -27,4 +27,15 @@ class CrossSection:
         w_i = CrossSection(costh, self.w_max).dsigma() * self.delta
         if self.w_max < w_i:
             self.w_max = w_i
-        return w_i, costh, self.w_max
+        return w_i, self.w_max
+
+    def integrate_xsec(self, N=10000):
+        w_sum = 0
+        w_max = 0
+        w_square = 0
+        costh = np.zeros(N)
+        for i in range(1, N):
+            w_i, w_max = CrossSection(costh, w_max).xsection()
+            w_sum += w_i
+            w_square += w_i * w_i
+        return w_sum, w_squares
