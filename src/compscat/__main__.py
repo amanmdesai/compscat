@@ -5,24 +5,28 @@ from cross_section import CrossSection
 from save_events import SaveEvent
 
 
-def main() -> None:
+def main():
 
     parser = argparse.ArgumentParser(
         prog="compscat",
         description="Monte Carlo Simulation of Compton Scattering",
     )
     parser.add_argument(
-        "E",
-        action="store_true",
-        help="Energy of the Photon",
+        "--energy",
+        type=float,
+        required=True,
+        help="Energy of the Photon in MeV",
     )
     arguments = parser.parse_args()
 
-    w_sum, w_square, w_max = CrossSection(
-        arguments.E / compscat.constants.m
-    ).integrate_xsec()
+    if arguments.energy <= 0.1:
+        raise Exception("Energy Cannot be less than 1 MeV")
 
-    SaveEvent(10000, w_max, arguments.E).to_root()
+    E = arguments.energy * 1e-3
+
+    w_sum, w_square, w_max = CrossSection(E / compscat.constants.m).integrate_xsec()
+
+    SaveEvent(10000, w_max, E).to_root()
 
 
 if __name__ == "__main__":
