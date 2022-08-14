@@ -4,16 +4,14 @@ import compscat.constants
 import compscat.CrossSection
 
 
-class generate_events:
+class GENEvents:
     def __init__(self, Nevent, w_max, E):
+        self.delta = compscat.constants.delta
+        self.m = compscat.constants.m
 
         self.Nevent = Nevent
         self.w_max = w_max
-        self.delta = compscat.constants.delta
         self.E = E
-        self.m = compscat.constants.m
-        self.w_max = w_max
-        self.costh = costh
 
     def gen_events(self):
         i = 0
@@ -30,7 +28,7 @@ class generate_events:
         while i < Nevent:
             costh = -1 + random.random() * self.delta
             phi = 2 * math.pi * random.random() * self.delta
-            w_ii = CrossSection(costh, self.w_max).dsigma() * self.delta
+            w_ii = CrossSection(self.E/self.m).dsigma(costh) * self.delta
             prob = w_ii / self.w_max
             random_point = random.random()
             if random_point < prob:

@@ -1,16 +1,15 @@
 import uproot
-import compscat.generate_events
+import compscat.GENEvents
 
 
-class save_event(Nevent, w_max):
-    def __init__(self, Nevent, w_max):
+class SaveEvent(Nevent, w_max):
+    def __init__(self, Nevent, w_max, E):
         self.Nevent = Nevent
         self.w_max = w_max
+        self.E = E
 
     def to_root(self):
-        ph_e, ph_px, ph_py, ph_pz, el_e, el_px, el_py, el_pz = generate_events(
-            Nevent, w_max
-        ).gen_events()
+        ph_e, ph_px, ph_py, ph_pz, el_e, el_px, el_py, el_pz = GENEvents(self.Nevent, self.w_max, self.E).gen_events()
         file = uproot.recreate("MC_compton.root")
         file["events"] = {
             "Photon Energy (keV)": ph_e * 1e6,
