@@ -3,6 +3,9 @@ import uproot
 
 
 class PlotData:
+	
+    def __init__(self):
+    	self.filename=filename    
     def plot(data, key):
         plt.hist(data, bins=100, color=None)
         label = key.replace("_", " ")
@@ -11,10 +14,10 @@ class PlotData:
         plt.show()
         plt.savefig(key + ".png")
 
-    def file(self, filename):
-        if "root" not in filename:
+    def file(self.filename='MC_compton.root'):
+        if 'root' not in filename:
             raise Exception("Input must be a ROOT file")
-        file = uproot.open(filename)
+        file = uproot.open(self.filename)
         tree = file["events"]
         branches = tree.arrays()
         for key in tree.keys():
