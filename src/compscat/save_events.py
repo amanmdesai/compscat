@@ -2,7 +2,7 @@ import uproot
 from compscat.generate_event import GENEvents
 
 
-class SaveEvent(Nevent, w_max):
+class SaveEvent:
     def __init__(self, Nevent, w_max, E):
         self.Nevent = Nevent
         self.w_max = w_max
