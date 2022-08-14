@@ -4,6 +4,7 @@ import compscat.constants
 from compscat.cross_section import CrossSection
 import random
 
+
 class GENEvents:
     def __init__(self, Nevent, w_max, E):
         self.delta = compscat.constants.delta
