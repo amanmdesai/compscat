@@ -18,5 +18,5 @@ class PlotData:
         tree = file["events"]
         branches = tree.arrays()
         for key in tree.keys():
-            plot(branches[key], key)
+            PlotData().plot(branches[key], key)
         return 0
