@@ -14,12 +14,12 @@ class SaveEvent:
         ).gen_events()
         file = uproot.recreate("MC_compton.root")
         file["events"] = {
-            "Photon Energy (keV)": ph_e * 1e6,
-            "Photon Px (keV)": ph_px * 1e6,
-            "Photon Py (keV)": ph_py * 1e6,
-            "Photon Pz (keV)": ph_pz * 1e6,
-            "Electron E (keV)": el_e * 1e6,
-            "Electron Px (keV)": el_px * 1e6,
-            "Electron Py (keV)": el_py * 1e6,
-            "Electron Pz (keV)": el_pz * 1e6,
+            "Photon_Energy": ph_e * 1e6,
+            "Photon_Px": ph_px * 1e6,
+            "Photon_Py": ph_py * 1e6,
+            "Photon_Pz": ph_pz * 1e6,
+            "Electron_E": el_e * 1e6,
+            "Electron_Px": el_px * 1e6,
+            "Electron_Py": el_py * 1e6,
+            "Electron_Pz": el_pz * 1e6,
         }
