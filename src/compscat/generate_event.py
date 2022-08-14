@@ -1,8 +1,8 @@
 import numpy as np
 import math
 import compscat.constants
-import compscat.CrossSection
-
+from compscat.cross_section import CrossSection
+import random
 
 class GENEvents:
     def __init__(self, Nevent, w_max, E):

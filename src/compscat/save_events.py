@@ -1,5 +1,5 @@
 import uproot
-import compscat.GENEvents
+from compscat.generate_event import GENEvents
 
 
 class SaveEvent(Nevent, w_max):

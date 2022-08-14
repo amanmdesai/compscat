@@ -1,5 +1,5 @@
 import argparse
-import sys
+#import sys
 
 import compscat
 from cross_section import CrossSection
