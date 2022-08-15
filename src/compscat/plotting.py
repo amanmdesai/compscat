@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import uproot
+import pandas as pd
 
 
 class PlotData:
@@ -12,10 +13,13 @@ class PlotData:
         plt.savefig(key + ".png")
 
     def file(filename="MC_compton.root"):
-        if "root" not in filename:
-            raise TypeError("Input must be a ROOT file")
-        file = uproot.open(filename)
-        tree = file["events"]
-        branches = tree.arrays()
-        for key in tree.keys():
-            PlotData.plot(branches[key], key)
+        if "root" in filename:
+            file = uproot.open(filename)
+            tree = file["events"]
+            branches = tree.arrays()
+            for key in tree.keys():
+                PlotData.plot(branches[key], key)
+        if "csv" in filename:
+            df = pd.read_csv(filename)
+            for col in df.columns:
+                PlotData.plot(df[col], col)

@@ -4,3 +4,4 @@ math
 argparse
 uproot
 matplotlib
+pandas
