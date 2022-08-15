@@ -10,7 +10,8 @@ Monte Carlo Simulation of Compton Scattering
 
 ## Installation
 ```bash
-pip install git+https:https://github.com/amanmdesai/compscat
+git clone https://github.com/amanmdesai/compscat.git
+pip install .
 ```
 ## Running it!
 
