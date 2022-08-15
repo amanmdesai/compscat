@@ -11,6 +11,7 @@ Monte Carlo Simulation of Compton Scattering
 ## Installation
 ```bash
 git clone https://github.com/amanmdesai/compscat.git
+cd compscat
 pip install .
 ```
 ## Running it!
