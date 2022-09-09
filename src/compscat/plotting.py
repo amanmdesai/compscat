@@ -1,6 +1,8 @@
+from __future__ import annotations
+
 import matplotlib.pyplot as plt
-import uproot
 import pandas as pd
+import uproot
 
 
 class PlotData:

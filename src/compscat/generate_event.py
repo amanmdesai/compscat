@@ -1,8 +1,12 @@
-import numpy as np
+from __future__ import annotations
+
 import math
+import random
+
+import numpy as np
+
 import compscat.constants
 from compscat.cross_section import CrossSection
-import random
 
 
 class GENEvents:

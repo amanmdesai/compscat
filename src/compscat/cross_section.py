@@ -1,5 +1,8 @@
-import compscat.constants
+from __future__ import annotations
+
 import random
+
+import compscat.constants
 
 
 class CrossSection:
