@@ -1,5 +1,8 @@
-import uproot
+from __future__ import annotations
+
 import pandas as pd
+import uproot
+
 from compscat.generate_event import GENEvents
 
 

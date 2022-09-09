@@ -16,6 +16,3 @@ cd compscat
 pip install .
 ```
 ## Running it!
-
-
-

@@ -1,8 +1,11 @@
+from __future__ import annotations
+
 import argparse
 
-import compscat
 from cross_section import CrossSection
 from save_events import SaveEvent
+
+import compscat
 
 
 def main():
