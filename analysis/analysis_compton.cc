@@ -39,13 +39,13 @@ void analysis_compton(){
         h_a_py->Fill(ph_py);
         h_a_pz->Fill(ph_pz);
         h_a_e->Fill(ph_e);
-                
+
         h_e_px->Fill(el_px);
         h_e_py->Fill(el_py);
         h_e_pz->Fill(el_pz);
         h_e_e->Fill(el_e);
-                
-        
+
+
 
     } // for loop tree
 
