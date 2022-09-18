@@ -16,7 +16,7 @@ pip install .
 ```
 ## Running it!
 
-See an example notebook in notebooks.
+See an example notebook in notebooks
 
 ## Author
 Aman Desai

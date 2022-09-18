@@ -3,7 +3,7 @@
 void histocombo(TH1 *histo1,TH1 *histo2, const char* namecan, const char* xaxis, const char* yaxis,const char* histo1des,const char* histo2des)
 {
 
-    
+
         TCanvas* canvas = new TCanvas(namecan,namecan,800,800);
 
         histo1->GetXaxis()->SetTitle(xaxis);
@@ -14,7 +14,7 @@ void histocombo(TH1 *histo1,TH1 *histo2, const char* namecan, const char* xaxis,
         gStyle->SetOptTitle(kFALSE);
         gStyle->SetOptStat(0);
 
-        histo1->GetXaxis()->SetLabelSize(0.045); 
+        histo1->GetXaxis()->SetLabelSize(0.045);
         histo1->SetMaximum(1.1*histo1->GetMaximum());
 
         histo1->SetLineColor(4);
@@ -55,8 +55,8 @@ void analysis_compare(){
 
     TFile *compton = new TFile("compton_histo.root");
     TFile *mg5 = new TFile("mg5_histo.root");
-   
-    
+
+
     TH1 *mg5_px_a = (TH1*)mg5->Get("h_a_px");
     TH1 *mg5_py_a = (TH1*)mg5->Get("h_a_py");
     TH1 *mg5_pz_a = (TH1*)mg5->Get("h_a_pz");
@@ -67,7 +67,7 @@ void analysis_compare(){
     TH1 *mg5_pz_e = (TH1*)mg5->Get("h_e_pz");
     TH1 *mg5_e_e = (TH1*)mg5->Get("h_e_e");
 
-    
+
     TH1 *compton_px_a = (TH1*)compton->Get("h_a_px");
     TH1 *compton_py_a = (TH1*)compton->Get("h_a_py");
     TH1 *compton_pz_a = (TH1*)compton->Get("h_a_pz");
