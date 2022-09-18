@@ -16,7 +16,36 @@ pip install .
 ```
 ## Running it!
 
-See an example notebook in notebooks
+Description of the example in notebooks:
+
+To import the library use
+```python
+from compscat import *
+```
+and then set the energy of the incoming photon in MeV:
+```python
+E = 0.1
+```
+
+The step below is the crucial step as the Cross Section is evaluated here. Only the energy is passed as an argument.
+```python
+w_sum, w_square, w_max = compscat.CrossSection(
+    E / compscat.constants.m
+).integrate_xsec()
+```
+The script below will generate the events according to the w_max obtained above and Energy specified by the user. Moreover, the below class will also save the events (either as root or in a csv file). To save in root format use:
+```python
+compscat.SaveEvent(10000, w_max, E).to_root()
+```
+else to save them in a csv file use:
+```python
+compscat.SaveEvent(10000, w_max, E).to_csv()
+```
+Finally the scripts below will plot the data and store it as pdf:
+```python
+compscat.PlotData.file("MC_compton.root")
+compscat.PlotData.file("MC_compton.csv")
+```
 
 ## Author
-Aman Desai
+Aman Desai (https://github.com/amanmdesai)
