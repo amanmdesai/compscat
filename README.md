@@ -15,3 +15,8 @@ cd compscat
 pip install .
 ```
 ## Running it!
+
+See an example notebook in notebooks.
+
+## Author
+Aman Desai
