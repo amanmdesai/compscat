@@ -45,7 +45,7 @@ void histocombo(TH1 *histo1,TH1 *histo2, const char* namecan, const char* xaxis,
         legend->SetTextFont(42);
         legend->Draw();
 
-        canvas->SaveAs(namecan,"eps");
+        canvas->SaveAs(namecan,"png");
         delete canvas;
 
 }
@@ -79,15 +79,15 @@ void analysis_compare(){
     TH1 *compton_e_e = (TH1*)compton->Get("c_e_e");
 
 
-    histocombo(compton_px_a,mg5_px_a, "results/photon_px.pdf", "Photon Px (keV)", "Counts","Compton","MG5");
-    histocombo(compton_py_a,mg5_py_a, "results/photon_py.pdf", "Photon Py (keV)", "Counts","Compton","MG5");
-    histocombo(compton_pz_a,mg5_pz_a, "results/photon_pz.pdf", "Photon Pz (keV)", "Counts","Compton","MG5");
-    histocombo(compton_e_a,mg5_e_a, "results/photon_energy.pdf", "Photon Energy (keV)", "Counts","Compton","MG5");
+    histocombo(compton_px_a,mg5_px_a, "results/photon_px.png", "Photon Px (keV)", "Counts","CompScat","MadGraph");
+    histocombo(compton_py_a,mg5_py_a, "results/photon_py.png", "Photon Py (keV)", "Counts","CompScat","MadGraph");
+    histocombo(compton_pz_a,mg5_pz_a, "results/photon_pz.png", "Photon Pz (keV)", "Counts","CompScat","MadGraph");
+    histocombo(compton_e_a,mg5_e_a, "results/photon_energy.png", "Photon Energy (keV)", "Counts","CompScat","MadGraph");
 
-    histocombo(compton_px_e,mg5_px_e, "results/electron_px.pdf", "Electron Px (keV)", "Counts","Compton","MG5");
-    histocombo(compton_py_e,mg5_py_e, "results/electron_py.pdf", "Electron Py (keV)", "Counts","Compton","MG5");
-    histocombo(compton_pz_e,mg5_pz_e, "results/electron_pz.pdf", "Electron Pz (keV)", "Counts","Compton","MG5");
-    histocombo(compton_e_e,mg5_e_e, "results/electron_energy.pdf", "Electron Energy (keV)", "Counts","Compton","MG5");
+    histocombo(compton_px_e,mg5_px_e, "results/electron_px.png", "Electron Px (keV)", "Counts","CompScat","MadGraph");
+    histocombo(compton_py_e,mg5_py_e, "results/electron_py.png", "Electron Py (keV)", "Counts","CompScat","MadGraph");
+    histocombo(compton_pz_e,mg5_pz_e, "results/electron_pz.png", "Electron Pz (keV)", "Counts","CompScat","MadGraph");
+    histocombo(compton_e_e,mg5_e_e, "results/electron_energy.png", "Electron Energy (keV)", "Counts","CompScat","MadGraph");
 
 
 }
