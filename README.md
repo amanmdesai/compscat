@@ -74,7 +74,7 @@ compscat.PlotData.file("MC_compton.csv")
 
 * Find the angles $\phi$ and $\theta$ of scattering.
 
-* Make a 2D plot of the energy of photon/electron with the angle of scattering ($\phi$ and $\theta$).
+* Make a 2D plot of the energy of photon/electron with the angle of scattering ( $\phi$ and $\theta$).
 
 ## To do
 
