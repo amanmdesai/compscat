@@ -41,7 +41,7 @@ Plot showing the cross section versus energy (with error bars):
 | Initial Photon Energy | CompScat $\sigma$ (milibarn) | Madgraph $\sigma$ (milibarn)|
 | ----------------------| --------- | ------|
 |  50 MeV  | 15.585 $\pm$ 0.0495 |  15.57 $\pm$ 0.037  |
-| 100 MeV  | 8.799 $\pm$ 0.0361  |  8.799 $\pm$ 0.028   |
+| 100 MeV  |  8.783 $\pm$ 0.0361  |  8.799 $\pm$ 0.028   |
 | 200 MeV  |  4.857 $\pm$ 0.0255  |  4.87 $\pm$ 0.019    |
 | 300 MeV  |  3.414 $\pm$ 0.0205  |  3.43 $\pm$ 0.0081    |
 | 400 MeV  |  2.669 $\pm$ 0.0185  |  2.664 $\pm$ 0.0051    |
