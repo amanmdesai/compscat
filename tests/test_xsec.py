@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 from compscat import *
-from compscat import constants
 
 E = 0.1
 
@@ -11,7 +10,7 @@ w_sum, w_square, w_max = compscat.CrossSection(E / compscat.constants.m).integra
 
 # print(constants.convert)
 
-sigma_x = w_sum * constants.convert / (10000 * 1e12)
+sigma_x = w_sum * compscat.constants.convert / (10000 * 1e12)
 
 print(sigma_x)
 
