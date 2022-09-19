@@ -27,6 +27,7 @@ Monte Carlo simulation of fixed target Compton scattering. The study has been co
 The following plots compare the final states for CompScat with the Madgraph5amc_NLO final states.
 
 ### Cross section
+
 Evaluated using $10^6$ phase points with CompScat and using the Madgraph file as given in analysis folder.
 
 Plot showing the cross section versus energy (with error bars):
@@ -47,10 +48,12 @@ Plot showing the cross section versus energy (with error bars):
 
 ### Photon final state kinematics
 
-<img src="images/photon_energy.png" width="200" title="photon_energy">
-<img src="images/photon_px.png" width="200" title="photon_px">
-<img src="images/photon_py.png" width="200" title="photon_py">
-<img src="images/photon_pz.png" width="200" title="photon_pz">
+<p float="left">
+<img src="images/photon_energy.png" width="200" title="photon_energy" />
+<img src="images/photon_px.png" width="200" title="photon_px"/>
+<img src="images/photon_py.png" width="200" title="photon_py"/>
+<img src="images/photon_pz.png" width="200" title="photon_pz"/>
+</p>
 
 ### Electron final state kinematics
 
