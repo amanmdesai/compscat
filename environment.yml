@@ -8,5 +8,5 @@ dependencies:
   - matplotlib
   - pandas
   - pip:
-    - argparse 
+    - argparse
     - .
