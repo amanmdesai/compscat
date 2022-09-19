@@ -34,7 +34,7 @@
     rev: "v2.1.0"
     hooks:
       - id: codespell
-        args: ["-I", "compscat,hist"]
+        args: ["-L", "compscat,hist"]
   - repo: https://github.com/kynan/nbstripout
     rev: 0.5.0
     hooks:
