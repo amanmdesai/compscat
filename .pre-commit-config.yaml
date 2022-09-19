@@ -1,4 +1,4 @@
-repos:
+  repos:
   - repo: https://github.com/psf/black
     rev: 22.6.0
     hooks:
@@ -34,7 +34,7 @@ repos:
     rev: "v2.1.0"
     hooks:
       - id: codespell
-        args: ["-I", "codespell.txt"]
+        args: ["-I", "compscat,hist"]
   - repo: https://github.com/kynan/nbstripout
     rev: 0.5.0
     hooks:
