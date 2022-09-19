@@ -20,7 +20,14 @@ Monte Carlo simulation of fixed-target Compton scattering. The study has been co
 
 ## Physics
 
-TO DO
+Representative Feynman diagrams for compton scattering
+<p align="center">
+<img src="images/compton.png" width="200" title="compton_feyn">
+<img src="images/compton2.png" width="200" title="compton_feyn">
+</p>
+
+
+**TO DO**
 
 --- this section explains the physics involved in CompScat ---
 
@@ -138,7 +145,7 @@ We would like to thank Prof. Olivier Mattelaer (UC Louvain, Belgium), whose sugg
 
 1. For physics involved in the calculation, see for example, _INTRODUCTION TO ELEMENTARY PARTICLES_, David Griffiths.
 2. For monte carlo techniques: _Statistical data analysis_, Glen Cowan, 1998.
-3. For the equations used by the simulator see for example, 
+3. For the equations used by the simulator see for example,
 [LINK](http://www.personal.soton.ac.uk/ab1u06/teaching/qft/qft1/christmas_problems/2014/XmasProb_DMillar.pdf)
 4. Also see: Papaefstathiou, A. How-to: write a parton-level Monte Carlo particle physics event generator. Eur. Phys. J. Plus 135, 497 (2020).
 5. Alwall, J. and others, The automated computation of tree-level and next-to-leading order differential cross sections, and their matching to parton shower simulations.
