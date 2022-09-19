@@ -139,7 +139,7 @@ See the notebook 'cross-section.ipynb'
 
 ## Acknowledgements
 
-We would like to thank Prof. Olivier Mattelaer (UC Louvain, Belgium), whose suggestion on applying cuts in the Madgraph configuration file was helpful in validation of the final states predicted by the CompScat package.
+We would like to thank Dr. Olivier Mattelaer (UCLouvain, Belgium), whose suggestion on applying cuts in the Madgraph configuration file was helpful in validation of the final states predicted by the CompScat package.
 
 ## References
 
