@@ -72,9 +72,9 @@ compscat.PlotData.file("MC_compton.csv")
 
 * Study the final states at different energies and plot them on the same plot.
 
-* Find the angles $phi$ and $theta$ of scattering.
+* Find the angles $\phi$ and $\theta$ of scattering.
 
-* Make a 2D plot of the energy of photon/electron with the angle of scattering ($phi$ and $theta$).
+* Make a 2D plot of the energy of photon/electron with the angle of scattering ($\phi$ and $\theta$).
 
 ## To do
 
