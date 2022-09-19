@@ -1,4 +1,7 @@
-# from __future__ import annotations
+"""
+Copyright (c) 2022 Aman Desai. All rights reserved.
+
+"""
 
 from __future__ import annotations
 
