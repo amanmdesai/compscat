@@ -127,9 +127,6 @@ See the notebook 'cross-section.ipynb'
 
 * Make a 2D plot of the energy of photon/electron with the angle of scattering ( $\phi$ and $\theta$).
 
-## To do
-
-Lorentz Transformation from fixed target frame to center of mass frame. (for the next version.)
 
 ## Acknowledgements
 
