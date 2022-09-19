@@ -1,0 +1,10 @@
+name: compscat-binder
+dependencies:
+  - python>=3.8
+  - numpy
+  - uproot
+  - matplotlib
+  - pandas
+  - pip:
+    - argparse 
+    - .
