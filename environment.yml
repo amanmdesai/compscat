@@ -1,6 +1,9 @@
 name: compscat-binder
+channels:
+  - conda-forge
 dependencies:
   - python>=3.8
+  - root
   - numpy
   - uproot
   - matplotlib
