@@ -22,8 +22,8 @@ Monte Carlo simulation of fixed-target Compton scattering. The study has been co
 
 Representative Feynman diagrams for compton scattering
 <p align="center">
-<img src="images/compton.png" width="200" title="compton_feyn">
-<img src="images/compton2.png" width="200" title="compton_feyn">
+<img src="analysis/images/compton.png" width="200" title="compton_feyn">
+<img src="analysis/images/compton2.png" width="200" title="compton_feyn">
 </p>
 
 
@@ -41,7 +41,7 @@ Evaluated using $10^6$ phase points with CompScat and using the Madgraph file as
 
 Plot showing the cross section versus energy (with error bars):
 <p align="center">
-<img src="images/xsec_vs_energy.jpg" width="350" title="xsec_vs_energy">
+<img src="analysis/images/xsec_vs_energy.jpg" width="350" title="xsec_vs_energy">
 </p>
 
 
@@ -58,25 +58,25 @@ Plot showing the cross section versus energy (with error bars):
 ### Photon final state kinematics
 
 <p align="center">
-<img src="images/photon_energy.png" width="250" title="photon_energy" />
-<img src="images/photon_px.png" width="250" title="photon_px"/>
+<img src="analysis/images/photon_energy.png" width="250" title="photon_energy" />
+<img src="analysis/images/photon_px.png" width="250" title="photon_px"/>
 </p>
 
 <p align="center">
-<img src="images/photon_py.png" width="250" title="photon_py"/>
-<img src="images/photon_pz.png" width="250" title="photon_pz"/>
+<img src="analysis/images/photon_py.png" width="250" title="photon_py"/>
+<img src="analysis/images/photon_pz.png" width="250" title="photon_pz"/>
 </p>
 
 ### Electron final state kinematics
 
 <p align="center">
-<img src="images/electron_energy.png" width="250" title="photon_energy">
-<img src="images/electron_px.png" width="250" title="photon_px">
+<img src="analysis/images/electron_energy.png" width="250" title="photon_energy">
+<img src="analysis/images/electron_px.png" width="250" title="photon_px">
 </p>
 
 <p align="center">
-<img src="images/electron_py.png" width="250" title="photon_py">
-<img src="images/electron_pz.png" width="250" title="photon_pz">
+<img src="analysis/images/electron_py.png" width="250" title="photon_py">
+<img src="analysis/images/electron_pz.png" width="250" title="photon_pz">
 </p>
 
 ## Installation
