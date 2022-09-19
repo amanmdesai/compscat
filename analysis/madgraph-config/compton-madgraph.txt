@@ -1,0 +1,14 @@
+import model sm-full --modelname
+generate e- a > e- a
+output
+launch
+set analysis=OFF
+set lpp1 0
+set lpp2 0
+set ebeam1  0.511E-03
+set ebeam2  .1
+set no_parton_cut
+set fixed_scale 100 # not really needed but i prefer to fix the scale for such computation
+set ptl 0.0
+set pta 0.0
+set mass_ion1  0.511E-03

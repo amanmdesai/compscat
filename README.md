@@ -11,10 +11,12 @@
 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-3100/)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/amanmdesai/compscat/HEAD)
 
+## Author
+Aman Desai
 
 ##  Description
 
-Monte Carlo simulation of fixed target Compton scattering for educational purposes. The study has been compared with Madgraph5amc_NLO MC event generator and gives the same result for 100 MeV photon colliding with electron at rest for 10k events. The full analysis can be found here [LINK](https://github.com/amanmdesai/compscat/tree/master/analysis). The analysis is currently done in c++ (ROOT Framework). To analyse the Madgraph LHE file, a LHE reader deverloped [here](https://github.com/amanmdesai/LHE-Reader) is used.
+Monte Carlo simulation of fixed target Compton scattering. The study has been compared with Madgraph5amc_NLO MC event generator The full analysis can be found here [LINK](https://github.com/amanmdesai/compscat/tree/master/analysis). The analysis is currently done in c++ (ROOT Framework). To analyse the Madgraph LHE file, a LHE reader deverloped [here](https://github.com/amanmdesai/LHE-Reader) is used.
 
 ## Physics
 
@@ -22,7 +24,42 @@ Monte Carlo simulation of fixed target Compton scattering for educational purpos
 
 ## Validation of CompScat
 
-The following plots compare the final states for CompScat with the Madgraph5amc_NLO final states. The comparison is for a 100 MeV photon colliding with electron at rest.
+The following plots compare the final states for CompScat with the Madgraph5amc_NLO final states.
+
+### Cross section
+Evaluated using 10^6 phase points with CompScat and using the Madgraph file as given in analysis folder.
+
+| Initial Photon Energy | CompScat $\sigma$ (milibarn) | Madgraph $\sigma$ (milibarn)|
+| ----------------------| --------- | ------|
+|  50 MeV  | $ 15.585 \pm 0.0495 $ | $ 15.57 \pm 0.037 $ |
+| 100 MeV  | $ 8.799 \pm 0.0361 $ | $ 8.799 \pm 0.028 $  |
+| 200 MeV  | $ 4.857 \pm 0.0255 $ | $ 4.87 \pm 0.019 $   |
+| 300 MeV  | $ 3.414 \pm 0.0205 $ | $ 3.43 \pm 0.0081 $   |
+| 400 MeV  | $ 2.669 \pm 0.0185 $ | $ 2.664 \pm 0.0051 $   |
+| 500 MeV  | $ 2.194 \pm 0.0161 $ |  $ 2.203 \pm 0.0044 $  |
+
+Plot showing the cross section versus energy (with error bars):
+<p align="center">
+<img src="images/xsec_vs_energy.jpg" width="200" title="xsec_vs_energy">
+</p>
+
+### Photon final state kinematics
+
+<p align="center">
+<img src="images/photon_energy.png" width="200" title="photon_energy">
+<img src="images/photon_px.png" width="200" title="photon_px">
+<img src="images/photon_py.png" width="200" title="photon_py">
+<img src="images/photon_pz.png" width="200" title="photon_pz">
+</p>
+
+### Electron final state kinematics
+
+<p align="center">
+<img src="images/electron_energy.png" width="200" title="photon_energy">
+<img src="images/electron_px.png" width="200" title="photon_px">
+<img src="images/electron_py.png" width="200" title="photon_py">
+<img src="images/electron_pz.png" width="200" title="photon_pz">
+</p>
 
 ## Installation
 ```bash
@@ -80,5 +117,10 @@ compscat.PlotData.file("MC_compton.csv")
 
 Lorentz Transformation from fixed target frame to center of mass frame. (for the next version.)
 
-## Author
-Aman Desai
+## Acknowledgements
+
+
+## References
+
+* Griffiths?
+* 
