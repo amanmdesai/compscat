@@ -1,7 +1,0 @@
-numpy
-random
-math
-argparse
-uproot
-matplotlib
-pandas
