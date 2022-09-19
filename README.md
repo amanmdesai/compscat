@@ -136,8 +136,9 @@ Lorentz Transformation from fixed target frame to center of mass frame. (for the
 
 ## References
 
-* For physics involved in the calculation, see for example, _INTRODUCTION TO ELEMENTARY PARTICLES_, David Griffiths.
-* For monte carlo techniques: _Statistical data analysis_, Glen Cowan, 1998.
-* For the equations used by the simulator see for example, http://www.personal.soton.ac.uk/ab1u06/teaching/qft/qft1/christmas_problems/2014/XmasProb_DMillar.pdf
-* Also see: Papaefstathiou, A. How-to: write a parton-level Monte Carlo particle physics event generator. Eur. Phys. J. Plus 135, 497 (2020).
-* Alwall, J. and others, The automated computation of tree-level and next-to-leading order differential cross sections, and their matching to parton shower simulations.
+1. For physics involved in the calculation, see for example, _INTRODUCTION TO ELEMENTARY PARTICLES_, David Griffiths.
+2. For monte carlo techniques: _Statistical data analysis_, Glen Cowan, 1998.
+3. For the equations used by the simulator see for example, 
+[LINK](http://www.personal.soton.ac.uk/ab1u06/teaching/qft/qft1/christmas_problems/2014/XmasProb_DMillar.pdf)
+4. Also see: Papaefstathiou, A. How-to: write a parton-level Monte Carlo particle physics event generator. Eur. Phys. J. Plus 135, 497 (2020).
+5. Alwall, J. and others, The automated computation of tree-level and next-to-leading order differential cross sections, and their matching to parton shower simulations.
