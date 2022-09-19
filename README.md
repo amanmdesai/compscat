@@ -1,6 +1,6 @@
 # CompScat
 [![License](https://img.shields.io/github/license/amanmdesai/compscat)](https://github.com/amanmdesai/compscat/blob/master/LICENSE.txt)
-[![Python package](https://github.com/amanmdesai/compscat/actions/workflows/test.yaml/badge.svg?branch=master)](https://github.com/amanmdesai/compscat/actions/workflows/test.yaml) 
+[![Python package](https://github.com/amanmdesai/compscat/actions/workflows/test.yaml/badge.svg?branch=master)](https://github.com/amanmdesai/compscat/actions/workflows/test.yaml)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/amanmdesai/compscat/master.svg)](https://results.pre-commit.ci/latest/github/amanmdesai/compscat/master)
 [![Dependency Review](https://github.com/amanmdesai/compscat/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/amanmdesai/compscat/actions/workflows/dependency-review.yml)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
@@ -136,5 +136,8 @@ Lorentz Transformation from fixed target frame to center of mass frame. (for the
 
 ## References
 
-* Griffiths?
-*
+* For physics involved in the calculation, see for example, _INTRODUCTION TO ELEMENTARY PARTICLES_, David Griffiths.
+* For monte carlo techniques: _Statistical data analysis_, Glen Cowan, 1998.
+* For the equations used by the simulator see for example, http://www.personal.soton.ac.uk/ab1u06/teaching/qft/qft1/christmas_problems/2014/XmasProb_DMillar.pdf
+* Also see: Papaefstathiou, A. How-to: write a parton-level Monte Carlo particle physics event generator. Eur. Phys. J. Plus 135, 497 (2020).
+* Alwall, J. and others, The automated computation of tree-level and next-to-leading order differential cross sections, and their matching to parton shower simulations.
