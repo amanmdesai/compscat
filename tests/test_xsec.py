@@ -1,17 +1,21 @@
+from __future__ import annotations
+
 from compscat import *
 
-E = .1
+E = 0.1
 
-w_sum, w_square, w_max = compscat.CrossSection(E / compscat.constants.m).integrate_xsec(10000)
+w_sum, w_square, w_max = compscat.CrossSection(E / compscat.constants.m).integrate_xsec(
+    10000
+)
 
-#print(constants.convert)
+# print(constants.convert)
 
-sigma_x = w_sum*constants.convert/(10000*1E12)
+sigma_x = w_sum * constants.convert / (10000 * 1e12)
 
 print(sigma_x)
 
-assert sigma_x < .0095
-assert sigma_x > .0076
+assert sigma_x < 0.0095
+assert sigma_x > 0.0076
 #    print("test_passed")
-#else:
+# else:
 #    raise(Error)
