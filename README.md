@@ -112,6 +112,11 @@ else if you are using csv file, use:
 ```python
 compscat.PlotData.file("MC_compton.csv")
 ```
+
+## Evaluate the Cross section
+
+See the notebook 'cross-section.ipynb'
+
 ## Exercises
 
 * Evaluate the cross section of compton scattering using the `CrossSection` module for different initial proton energies. Plot the same.
