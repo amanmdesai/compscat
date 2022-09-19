@@ -3,7 +3,7 @@
 [![Python package](https://github.com/amanmdesai/compscat/actions/workflows/test.yaml/badge.svg?branch=master)](https://github.com/amanmdesai/compscat/actions/workflows/test.yaml)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/amanmdesai/compscat/master.svg)](https://results.pre-commit.ci/latest/github/amanmdesai/compscat/master)
 [![Dependency Review](https://github.com/amanmdesai/compscat/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/amanmdesai/compscat/actions/workflows/dependency-review.yml)
-[![pages-build-deployment](https://github.com/amanmdesai/compscat/actions/workflows/pages/pages-build-deployment/badge.svg?branch=master)](https://github.com/amanmdesai/compscat/actions/workflows/pages/pages-build-deployment)
+[![pages-build-deployment](https://github.com/amanmdesai/compscat/actions/workflows/pages/pages-build-deployment/badge.svg?branch=master)](https://amanmdesai.github.io/compscat/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/)
 [![Python 3.9](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/release/python-390/)
