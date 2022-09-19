@@ -25,7 +25,7 @@ class CrossSection:
 
     def xsection(self, w_max):
         costh = -1 + random.random() * self.delta
-        w_i = CrossSection(w_max).dsigma(costh) * self.delta
+        w_i = CrossSection(self.w).dsigma(costh) * self.delta
         if w_max < w_i:
             w_max = w_i
         return w_i, w_max
@@ -34,7 +34,7 @@ class CrossSection:
         w_sum = 0
         w_max = 0
         w_square = 0
-        for _i in range(1, N):
+        for _i in range(N):
             w_i, w_max = CrossSection(self.w).xsection(w_max)
             w_sum += w_i
             w_square += w_i * w_i

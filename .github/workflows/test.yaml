@@ -1,6 +1,10 @@
 name: Python package
 
-on: [push]
+on:
+  pull_request:
+  push:
+    branches:
+     - master
 
 jobs:
   build:
@@ -20,3 +24,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install .[testing]
+
+      - name: test code
+        run: |
+          python tests/test_xsec.py

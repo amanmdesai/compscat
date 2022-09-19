@@ -9,3 +9,4 @@ exclude =
     .git,
     __pycache__,
     notebooks,
+    tests
