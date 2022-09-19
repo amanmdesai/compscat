@@ -173,6 +173,5 @@ cython_debug/
 #root
 
 *.root
-*.png
 *.csv
 *.pdf
