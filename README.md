@@ -16,9 +16,11 @@ Aman Desai
 
 ##  Description
 
-Monte Carlo simulation of fixed target Compton scattering. The study has been compared with Madgraph5amc_NLO MC event generator The full analysis can be found here [LINK](https://github.com/amanmdesai/compscat/tree/master/analysis). The analysis is currently done in c++ (ROOT Framework). To analyse the Madgraph LHE file, a LHE reader deverloped [here](https://github.com/amanmdesai/LHE-Reader) is used.
+Monte Carlo simulation of fixed-target Compton scattering. The study has been compared with Madgraph5amc_NLO MC event generator. The full analysis can be found here [LINK](https://github.com/amanmdesai/compscat/tree/master/analysis). The analysis is currently done in C++ (ROOT Framework). To analyse the Madgraph LHE file, an LHE reader deverloped [here](https://github.com/amanmdesai/LHE-Reader) is used.
 
 ## Physics
+
+TO DO
 
 --- this section explains the physics involved in CompScat ---
 
@@ -130,6 +132,7 @@ See the notebook 'cross-section.ipynb'
 
 ## Acknowledgements
 
+We would like to thank Prof. Olivier Mattelaer (UC Louvain, Belgium), whose suggestion on applying cuts in the Madgraph configuration file was helpful in validation of the final states predicted by the CompScat package.
 
 ## References
 
