@@ -1,3 +1,6 @@
+  ci:
+    autoupdate_schedule: monthly
+
   repos:
   - repo: https://github.com/psf/black
     rev: 22.6.0
@@ -50,5 +53,3 @@
     hooks:
       - id: pyupgrade
         args: ["--py37-plus"]
-ci:
-  autoupdate_schedule: monthly
