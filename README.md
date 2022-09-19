@@ -47,22 +47,16 @@ Plot showing the cross section versus energy (with error bars):
 
 ### Photon final state kinematics
 
-<img src="images/photon_energy.png" width="350" title="photon_energy">
-
-<img src="images/photon_px.png" width="350" title="photon_px">
-
-<img src="images/photon_py.png" width="350" title="photon_py">
-
-<img src="images/photon_pz.png" width="350" title="photon_pz">
+<img src="images/photon_energy.png" width="200" title="photon_energy">
+<img src="images/photon_px.png" width="200" title="photon_px">
+<img src="images/photon_py.png" width="200" title="photon_py">
+<img src="images/photon_pz.png" width="200" title="photon_pz">
 
 ### Electron final state kinematics
 
 <img src="images/electron_energy.png" width="200" title="photon_energy">
-
 <img src="images/electron_px.png" width="200" title="photon_px">
-
 <img src="images/electron_py.png" width="200" title="photon_py">
-
 <img src="images/electron_pz.png" width="200" title="photon_pz">
 
 ## Installation
