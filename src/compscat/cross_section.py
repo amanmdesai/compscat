@@ -34,7 +34,7 @@ class CrossSection:
         w_sum = 0
         w_max = 0
         w_square = 0
-        for i in range(N):
+        for _i in range(N):
             w_i, w_max = CrossSection(self.w).xsection(w_max)
             w_sum += w_i
             w_square += w_i * w_i
