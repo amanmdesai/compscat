@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from compscat import *
+from compscat import constants
 
 E = 0.1
 
