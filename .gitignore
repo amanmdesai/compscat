@@ -26,32 +26,9 @@ pyvenv*/
 # Installer logs
 pip-log.txt
 
-# Unit test / coverage reports
-.tox
-.coverage
-.coverage.*
-coverage.xml
-coverage*
-htmlcov
-nosetests.xml
-
-# Translations
-*.mo
-
-# Mr Developer
-.mr.developer.cfg
-.project
-.pydevproject
-.idea
-*.iml
-*.komodoproject
-
 # Complexity
 output/*.html
 output/*/index.html
-
-# Sphinx
-docs/_build
 
 .DS_Store
 *~
@@ -70,7 +47,7 @@ docs/_build
 /docs/html
 *.gv*
 
-/src/decaylanguage/_version.py
+/src/compscat/_version.py
 #root
 
 *.root
