@@ -3,7 +3,7 @@
 [![Python package](https://github.com/amanmdesai/compscat/actions/workflows/test.yaml/badge.svg?branch=master)](https://github.com/amanmdesai/compscat/actions/workflows/test.yaml)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/amanmdesai/compscat/master.svg)](https://results.pre-commit.ci/latest/github/amanmdesai/compscat/master)
 [![Dependency Review](https://github.com/amanmdesai/compscat/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/amanmdesai/compscat/actions/workflows/dependency-review.yml)
-[![pages-build-deployment](https://github.com/amanmdesai/compscat/actions/workflows/pages/pages-build-deployment/badge.svg?branch=master)](https://amanmdesai.github.io/compscat/)
+[![GH Pages](https://github.com/amanmdesai/compscat/actions/workflows/pages/pages-build-deployment/badge.svg?branch=master)](https://amanmdesai.github.io/compscat/)
 [![PyPI Package latest release](https://img.shields.io/pypi/v/compscat.svg)](https://pypi.python.org/pypi/compscat)
 [![Supported versions](https://img.shields.io/pypi/pyversions/compscat.svg)](https://pypi.python.org/pypi/compscat)
 [![DOI](https://zenodo.org/badge/524582949.svg)](https://zenodo.org/badge/latestdoi/524582949)
