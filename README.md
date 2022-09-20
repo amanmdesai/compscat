@@ -11,11 +11,12 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/amanmdesai/compscat/HEAD)
 
 ## Author
+
 Aman Desai
 
 ##  Description
 
-Monte Carlo simulation of fixed-target Compton scattering. The study has been compared with Madgraph5amc_NLO MC event generator. The full analysis can be found here [LINK](https://github.com/amanmdesai/compscat/tree/master/analysis). The analysis is currently done in C++ (ROOT Framework). To analyse the Madgraph LHE file, an LHE reader deverloped [here](https://github.com/amanmdesai/LHE-Reader) is used.
+Monte Carlo simulation of fixed-target Compton scattering. The study has been compared with Madgraph5amc_NLO MC event generator. The full analysis can be found here [Link](https://github.com/amanmdesai/compscat/tree/master/analysis). The analysis is currently done in C++ (ROOT Framework). To analyse the Madgraph LHE file, an LHE reader deverloped [here](https://github.com/amanmdesai/LHE-Reader) is used.
 
 ## Physics
 
@@ -145,6 +146,6 @@ We would like to thank Dr. Olivier Mattelaer (UCLouvain, Belgium), whose suggest
 1. For physics involved in the calculation, see for example, _INTRODUCTION TO ELEMENTARY PARTICLES_, David Griffiths.
 2. For monte carlo techniques: _Statistical data analysis_, Glen Cowan, 1998.
 3. For the equations used by the simulator see for example,
-[LINK](http://www.personal.soton.ac.uk/ab1u06/teaching/qft/qft1/christmas_problems/2014/XmasProb_DMillar.pdf)
+[Link](http://www.personal.soton.ac.uk/ab1u06/teaching/qft/qft1/christmas_problems/2014/XmasProb_DMillar.pdf)
 4. Also see: Papaefstathiou, A. How-to: write a parton-level Monte Carlo particle physics event generator. Eur. Phys. J. Plus 135, 497 (2020).
 5. Alwall, J. and others, The automated computation of tree-level and next-to-leading order differential cross sections, and their matching to parton shower simulations.
