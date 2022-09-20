@@ -74,7 +74,15 @@ Plot showing the cross section versus energy (with error bars):
 <img src="analysis/images/electron_pz.png" width="250" title="photon_pz">
 </p>
 
+
 ## Installation
+
+Use: 
+```bash
+pip install compscat
+```
+or to install from the latest branch use:
+
 ```bash
 git clone https://github.com/amanmdesai/compscat.git
 cd compscat
