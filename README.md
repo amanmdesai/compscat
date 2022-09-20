@@ -27,10 +27,6 @@ Representative Feynman diagrams for compton scattering
 </p>
 
 
-**TO DO**
-
---- this section explains the physics involved in CompScat ---
-
 ## Validation of CompScat
 
 The following plots compare the final states for CompScat with the Madgraph5amc_NLO final states.
@@ -143,7 +139,7 @@ We would like to thank Dr. Olivier Mattelaer (UCLouvain, Belgium), whose suggest
 
 ## References
 
-1. For physics involved in the calculation, see for example, _INTRODUCTION TO ELEMENTARY PARTICLES_, David Griffiths.
+1. For physics involved in the calculation, see for example, _Introduction to Elementary Particles_, David Griffiths.
 2. For monte carlo techniques: _Statistical data analysis_, Glen Cowan, 1998.
 3. For the equations used by the simulator see for example,
 [Link](http://www.personal.soton.ac.uk/ab1u06/teaching/qft/qft1/christmas_problems/2014/XmasProb_DMillar.pdf)
