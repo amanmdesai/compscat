@@ -76,7 +76,7 @@ Plot showing the cross section versus energy (with error bars):
 
 ## Installation
 
-Use: 
+Use:
 ```bash
 pip install compscat
 ```
