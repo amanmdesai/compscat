@@ -26,7 +26,6 @@ Representative Feynman diagrams for compton scattering
 <img src="analysis/images/compton2.png" width="200" title="compton_feyn">
 </p>
 
-
 ## Validation of CompScat
 
 The following plots compare the final states for CompScat with the Madgraph5amc_NLO final states.
