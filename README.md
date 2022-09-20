@@ -21,9 +21,10 @@ Monte Carlo simulation of fixed-target Compton scattering. The study has been co
 
 Representative Feynman diagrams for compton scattering
 <p align="center">
-<img src="analysis/images/compton.png" width="200" title="compton_feyn">
-<img src="analysis/images/compton2.png" width="200" title="compton_feyn">
+<img alt="compton-feynman diagram 2" src="https://raw.githubusercontent.com/amanmdesai/compscat/master/analysis/images/compton.png" width="200"/>
+<img alt="compton-feynman diagram 2" src="https://raw.githubusercontent.com/amanmdesai/compscat/master/analysis/images/compton2.png" width="200"/>
 </p>
+
 
 ## Validation of CompScat
 
@@ -35,7 +36,7 @@ Evaluated using $10^6$ phase points with CompScat and using the Madgraph file as
 
 Plot showing the cross section versus energy (with error bars):
 <p align="center">
-<img src="analysis/images/xsec_vs_energy.jpg" width="350" title="xsec_vs_energy">
+<img alt="xsec_vs_energy" src="https://raw.githubusercontent.com/amanmdesai/compscat/master/analysis/images/xsec_vs_energy.jpg" width="350"/>
 </p>
 
 
@@ -52,25 +53,27 @@ Plot showing the cross section versus energy (with error bars):
 ### Photon final state kinematics
 
 <p align="center">
-<img src="analysis/images/photon_energy.png" width="250" title="photon_energy" />
-<img src="analysis/images/photon_px.png" width="250" title="photon_px"/>
+<img src="https://raw.githubusercontent.com/amanmdesai/compscat/master/analysis/images/photon_energy.png" width="250" title="photon_energy" />
+<img src="https://raw.githubusercontent.com/amanmdesai/compscat/master/analysis/images/photon_px.png" width="250" title="photon_px"/>
 </p>
 
 <p align="center">
-<img src="analysis/images/photon_py.png" width="250" title="photon_py"/>
-<img src="analysis/images/photon_pz.png" width="250" title="photon_pz"/>
+<img src="https://raw.githubusercontent.com/amanmdesai/compscat/master/analysis/images/photon_py.png" width="250" title="photon_py"/>
+<img src="https://raw.githubusercontent.com/amanmdesai/compscat/master/analysis/images/photon_pz.png" width="250" title="photon_pz"/>
 </p>
+
+
 
 ### Electron final state kinematics
 
 <p align="center">
-<img src="analysis/images/electron_energy.png" width="250" title="photon_energy">
-<img src="analysis/images/electron_px.png" width="250" title="photon_px">
+<img src="https://raw.githubusercontent.com/amanmdesai/compscat/master/analysis/images/electron_energy.png" width="250" title="photon_energy">
+<img src="https://raw.githubusercontent.com/amanmdesai/compscat/master/analysis/images/electron_px.png" width="250" title="photon_px">
 </p>
 
 <p align="center">
-<img src="analysis/images/electron_py.png" width="250" title="photon_py">
-<img src="analysis/images/electron_pz.png" width="250" title="photon_pz">
+<img src="https://raw.githubusercontent.com/amanmdesai/compscat/master/analysis/images/electron_py.png" width="250" title="photon_py">
+<img src="https://raw.githubusercontent.com/amanmdesai/compscat/master/analysis/images/electron_pz.png" width="250" title="photon_pz">
 </p>
 
 

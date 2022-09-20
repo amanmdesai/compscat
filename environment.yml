@@ -9,4 +9,4 @@ dependencies:
   - pandas
   - pip:
     - argparse
-    - .
+    - compscat
