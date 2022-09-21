@@ -144,7 +144,7 @@ See the notebook 'cross-section.ipynb'
 
 ## Acknowledgements
 
-We would like to thank Dr. Olivier Mattelaer (UCLouvain, Belgium), whose suggestion on applying cuts in the Madgraph configuration file was helpful in validation of the final states predicted by the CompScat package.
+We would like to thank Dr. Olivier Mattelaer (UCLouvain, Belgium), whose suggestion on applying cuts in the Madgraph configuration file was helpful in validation of the final states predicted by the CompScat package. We are grateful to Dr. Kilian Lieret (Princeton University, USA), whose suggestion to me about pre-commit config/python packaging (cookiecutter) was helpful in the overall formatting/structuring of the python package. 
 
 ## References
 
