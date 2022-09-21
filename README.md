@@ -97,34 +97,38 @@ Description of the example in notebooks:
 
 To import the library use
 ```python
-from compscat import *
+from compscat import CrossSection, SaveEvent,constants,PlotData
 ```
+
 and then set the energy of the incoming photon in MeV:
+
 ```python
 E = 0.1
 ```
 
 The step below is the crucial step as the Cross Section is evaluated here. Only the energy is passed as an argument.
 ```python
-w_sum, w_square, w_max = compscat.CrossSection(
-    E / compscat.constants.m
+w_sum, w_square, w_max = CrossSection(
+    E / constants.m
 ).integrate_xsec()
 ```
+
 The script below will generate the events according to the w_max obtained above and Energy specified by the user. Moreover, the below class will also save the events (either as root or in a csv file). To save in root format use:
+
 ```python
-compscat.SaveEvent(10000, w_max, E).to_root()
+SaveEvent(10000, w_max, E).to_root()
 ```
 else to save them in a csv file use:
 ```python
-compscat.SaveEvent(10000, w_max, E).to_csv()
+SaveEvent(10000, w_max, E).to_csv()
 ```
 Finally the scripts below will plot the data and store it as pdf. If you have saved the events in a root format use:
 ```python
-compscat.PlotData.file("MC_compton.root")
+PlotData.file("MC_compton.root")
 ```
 else if you are using csv file, use:
 ```python
-compscat.PlotData.file("MC_compton.csv")
+PlotData.file("MC_compton.csv")
 ```
 
 ## Evaluate the Cross section
@@ -144,7 +148,7 @@ See the notebook 'cross-section.ipynb'
 
 ## Acknowledgements
 
-We would like to thank Dr. Olivier Mattelaer (UCLouvain, Belgium), whose suggestion on applying cuts in the Madgraph configuration file was helpful in validation of the final states predicted by the CompScat package. We are grateful to Dr. Kilian Lieret (Princeton University, USA), whose suggestion to me about pre-commit config/python packaging (cookiecutter) was helpful in the overall formatting/structuring of the python package. 
+We would like to thank Dr. Olivier Mattelaer (UCLouvain, Belgium), whose suggestion on applying cuts in the Madgraph configuration file was helpful in validation of the final states predicted by the CompScat package. We are grateful to Dr. Kilian Lieret (Princeton University, USA), whose suggestion to me about pre-commit config/python packaging (cookiecutter) was helpful in the overall formatting/structuring of the python package.
 
 ## References
 
