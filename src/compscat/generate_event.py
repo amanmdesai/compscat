@@ -31,8 +31,8 @@ class GENEvents:
         el_pz = np.zeros(self.Nevent)
         el_e = np.zeros(self.Nevent)
         while i < self.Nevent:
-            costh = -1 + random.random() * self.delta
-            phi = 2 * math.pi * random.random() * self.delta
+            costh = -1 + (random.random() * self.delta)
+            phi = 2 * math.pi * random.random() #* self.delta
             w_ii = CrossSection(self.E / self.m).dsigma(costh) * self.delta
             prob = w_ii / self.w_max
             random_point = random.random()
