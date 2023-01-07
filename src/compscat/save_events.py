@@ -34,7 +34,18 @@ class SaveEvent:
             self.Nevent, self.w_max, self.E
         ).gen_events()
 
-        data = list(zip(ph_e* 1e6, ph_px* 1e6, ph_py* 1e6, ph_pz* 1e6, el_e* 1e6, el_px* 1e6, el_py* 1e6, el_pz* 1e6))
+        data = list(
+            zip(
+                ph_e * 1e6,
+                ph_px * 1e6,
+                ph_py * 1e6,
+                ph_pz * 1e6,
+                el_e * 1e6,
+                el_px * 1e6,
+                el_py * 1e6,
+                el_pz * 1e6,
+            )
+        )
 
         column_name = [
             "Photon_Energy",
