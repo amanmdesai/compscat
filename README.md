@@ -48,6 +48,8 @@ Plot showing the cross section versus energy (with error bars):
 | 500 MeV  |  2.194 $\pm$ 0.0161  |  2.203 $\pm$ 0.0044   |
 
 
+In the following, the initial photon energy is set to 0.1 GeV (electron is at rest).
+
 ### Photon final state kinematics
 
 <p align="center">

@@ -17,6 +17,7 @@ class SaveEvent:
             self.Nevent, self.w_max, self.E
         ).gen_events()
         file = uproot.recreate("MC_compton.root")
+        # factor of 1e6 ensures the result is in KeV
         file["events"] = {
             "Photon_Energy": ph_e * 1e6,
             "Photon_Px": ph_px * 1e6,
@@ -33,7 +34,7 @@ class SaveEvent:
             self.Nevent, self.w_max, self.E
         ).gen_events()
 
-        data = list(zip(ph_e, ph_px, ph_py, ph_pz, el_e, el_px, el_py, el_pz))
+        data = list(zip(ph_e* 1e6, ph_px* 1e6, ph_py* 1e6, ph_pz* 1e6, el_e* 1e6, el_px* 1e6, el_py* 1e6, el_pz* 1e6))
 
         column_name = [
             "Photon_Energy",
