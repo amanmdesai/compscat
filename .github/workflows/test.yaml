@@ -31,5 +31,5 @@ jobs:
           pytest -v tests/*.py
       - name: coverage
         run: |
-          coverage run --source=pypack -m pytest -v tests/
+          coverage run --source=compscat -m pytest -v tests/
           coverage report
