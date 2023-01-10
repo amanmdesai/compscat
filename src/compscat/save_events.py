@@ -1,4 +1,7 @@
-from __future__ import annotations
+"""
+Copyright (c) 2022-2023 Aman Desai. All rights reserved.
+
+"""
 
 import pandas as pd
 import uproot

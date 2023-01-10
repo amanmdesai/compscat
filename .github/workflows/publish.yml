@@ -1,4 +1,4 @@
-name: Publish Dist
+name: publish
 
 on:
   workflow_dispatch:
