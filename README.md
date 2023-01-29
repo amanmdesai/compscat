@@ -4,8 +4,7 @@
 [![GH Pages](https://github.com/amanmdesai/compscat/actions/workflows/pages/pages-build-deployment/badge.svg?branch=master)](https://amanmdesai.github.io/compscat/)
 [![PyPI Package latest release](https://img.shields.io/pypi/v/compscat.svg)](https://pypi.python.org/pypi/compscat)
 [![Supported versions](https://img.shields.io/pypi/pyversions/compscat.svg)](https://pypi.python.org/pypi/compscat)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7192619.svg)](https://doi.org/10.5281/zenodo.7192619)
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7096017.svg)](https://doi.org/10.5281/zenodo.7096017)
 ## Author
 
 Aman Desai
