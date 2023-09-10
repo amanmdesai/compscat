@@ -5,6 +5,8 @@
 [![PyPI Package latest release](https://img.shields.io/pypi/v/compscat.svg)](https://pypi.python.org/pypi/compscat)
 [![Supported versions](https://img.shields.io/pypi/pyversions/compscat.svg)](https://pypi.python.org/pypi/compscat)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7096017.svg)](https://doi.org/10.5281/zenodo.7096017)
+[![JBI](https://img.shields.io/badge/Journal_of_Brief_Ideas-10.5281/zenodo.8260067-red.svg)](https://beta.briefideas.org/ideas/d923d6ecd55209cc8bf28a03f08d3b5c)
+
 ## Author
 
 Aman Desai
